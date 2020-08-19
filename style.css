@@ -3,7 +3,7 @@ body { font-family: Arial, sans-serif; font-size: 13px; color: #a4a4a4;}
 li { list-style: none; display: inline-block;}
 
 header { }
-.container {  margin: 0 auto; max-width: 100%;  background-color: #000; display: block;height: 7em; clear: both; display: block; }
+.container {  margin: 0 auto; max-width: 100%;  background-color: #000; display: block;height: 7em; clear: both;  }
 .reception { float: left; width: 33%;color: #FFF; padding: 26px 84px; font-size: 1.3em; text-transform: uppercase;}
 .reception ul li a { color: #FFF; text-decoration: none; }
 .logo {float: left; width: 33%; margin: 0 auto; text-align: center;}
@@ -15,14 +15,44 @@ header { }
 .navTop nav{ text-align: center; text-transform: uppercase; font-size: 1.5em; color: #000; padding: 13px; }
 .navTop nav li { margin: 0 13px;}
 .navTop nav li a { text-decoration: none; color: #000; line-height: bold;}
-.has-submenu{ position: relative;}
+.has-submenu{ position: relative; }
 .has-submenu li a { color: #a4a4a4; display: block; }
 .has-submenu:hover .submenu { display: block; background: #a4a4a4; margin-top: 15px; margin-left: -15px;;}
 .submenu {display: none; position:absolute; list-style: none; margin: 13px -65px;}
 .has-submenu:hover .submenu  li { width:250px; padding: 10px; border-bottom: 1px solid #FFF; background: transparent; border-radius: 0; text-align: left;
 line-height: 40px; text-indent: 10px; }
 
-.mainContent { padding: 3em 0; background: #FFF; border: 1px solid #FFF; clear: both;}
+.mainContent { padding: 3em 0; background: #FFF; border: 1px solid #FFF; clear: both; }
+.banner { background: url(./banner.jpg) #FFF no-repeat ; background-size: cover; height: 500px; width: 1200px; margin: 0 auto; margin-top: 3em;
+    position: relative;}
+h1 { color: #FFF; font-size: 5em;  text-align: right; margin-bottom: 60px; padding-top: 140px; padding-right: 80px; }
+p { max-width: 600px; text-align: right;  font-size:1.3em; padding-right: 80px; position: absolute; right: 15px;} 
+.navSlider { text-align: center; display: block; margin-top: 3em;}
+.navSlider li { display: inline-block; margin: 1em; }
+.navSlider li a { display: block; height: 15px; width: 15px; border-radius: 50%; background-color: #FFF;
+position: absolute; bottom: 30px;}
+.navSlider li a:hover { background-color: red;}
+.navSlider li.active a { background-color: #82B62D; }
+
+.new-product { clear: both; max-width: 1230px; height: 100%; margin-left: auto; margin-right: auto;  }
+.new-product { }
+.product { margin: 0 19px; }
+.product {  float: left; background: url(http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/product_block_05.jpg?fbclid=IwAR0BrR6KRYXgVtKG9PjtHTkQ_2oRLWvxCtxijCq_bnTvGRueFmhZbAyBxSM) no-repeat center ; 
+      height:400px; width: 370px;   border: 1px solid #000; text-align:center;}
+.product .title span { font-size: 3em;  color:#000; text-align:center;  }
+.product .item { font-size:2em; background-color:#000; color: #FFF; margin: 0 auto; max-width: 55%; padding-top: 0;}
+.product .button { font-size:2em; background-color:#000; color: #FFF; margin: 0 auto;width:250px; margin-top: 145px; padding: 10px 0; display: inline-block; }
+.product .button span a{ text-decoration: none; color: #FFF;}
+.product .button  { display: none; transition: all 0.3s; opacity: 0;}
+div.tempora:hover .button { display: inline-block;  opacity:1; }
+div.labore:hover .button{ display: block; opacity: 1;}
+div.quis-antem:hover .button{ display: block; opacity:1;}
+
+
+
+
+
+
 
 
 
